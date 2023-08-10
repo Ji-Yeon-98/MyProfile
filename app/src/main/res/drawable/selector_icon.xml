@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+
+        <layer-list>
+            <item
+                android:drawable="@drawable/dog_bfeet"
+                android:height="21dp"
+                android:width="21dp"/>
+        </layer-list>
+
+    </item>
+
+
+    <item android:state_pressed="true">
+
+        <layer-list>
+            <item
+                android:drawable="@drawable/dog_feet"
+                android:height="21dp"
+                android:width="21dp"/>
+        </layer-list>
+
+    </item>
+
+
+
+</selector>
